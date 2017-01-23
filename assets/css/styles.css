@@ -1,0 +1,143 @@
+/*
+FreeCodeCamp
+*********************************
+Tribute Page - Dr. Norman Borlaug
+*********************************
+Author:  Pranav Kural
+*/
+body {
+  font-family: 'Lato', sans-serif;
+  color: rgba(0,0,0,0.8);
+  margin: 5% 10%;
+  margin-bottom: 0;
+  animation: colorchange 30s infinite;
+  -webkit-animation: colorchange 30s infinite;
+}
+@media (max-width: 789px) {
+    body {
+        margin: 4% 8%;
+        margin-bottom: 0;
+    }
+}
+@keyframes colorchange {
+  0%   {background: #f00;}
+  10% {background: #ff9500}
+  20%  {background: #ffe500;}
+  30%  {background: #3bff00;}
+  40% {background: #0064ff;}
+  50% {background: #f0f;}
+  60% {background: #0064ff;}
+  70%  {background: #3bff00;}
+  80%  {background: #ffe500;}
+  90% {background: #ff9500}
+  100% {background: #f00;}
+}
+@-webkit-keyframes colorchange {
+  0%   {background: #f00;}
+  10% {background: #ff9500}
+  20%  {background: #ffe500;}
+  30%  {background: #3bff00;}
+  40% {background: #0064ff;}
+  50% {background: #f0f;}
+  60% {background: #0064ff;}
+  70%  {background: #3bff00;}
+  80%  {background: #ffe500;}
+  90% {background: #ff9500}
+  100% {background: #f00;}
+}
+#content {
+    border-radius: 0.5em;
+    padding: 2%;
+    line-height: 2em;
+    background-color: rgba(255, 255, 255, 0.5) !important;
+}
+#header {
+    text-align: center;
+    margin-bottom: 0.3em;
+}
+h1 {
+    font-family: 'Aref Ruqaa', sans-serif;
+}
+h2, h3 {
+    font-family: 'Mirza', sans-serif;
+}
+figure {
+    padding: 0.2em;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 0.2em;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+figure img {
+    border-radius: 0.2em 0.2em 0 0;
+    width: 100%;
+}
+figcaption {
+    text-align: center;
+    padding: 0 5%;
+}
+#description {
+    display: block;
+    position: relative;
+    padding: 0 3%;
+}
+#description li strong::after {
+    content: " - ";
+}
+#quote {
+    width: auto;;
+    margin: 0 3em;
+    padding: 0.5em;
+    background: rgba(0,0,0,0.1);
+    border: 0;
+    border-radius: 15px;
+}
+#quote blockquote {
+    border: 0;
+}
+#quote em {
+    margin-left: 1em;
+}
+#More_Info {
+    padding: 0 3%;
+}
+#footer {
+    text-align: center;
+}
+#footer span {
+    font-family: 'Crafty Girls', cursive;
+}
+#footer span a {
+    color: inherit;
+    border-bottom: 2px dashed #000;
+    text-decoration: none;
+}
+#footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    padding: 3% 0;
+    }
+@media (max-width: 590px) {
+  #footer {
+    flex-direction: column;
+  }
+}
+#footer img {
+      width: 30%;
+      height: 30%;
+    }
+@media (max-width: 590px) {
+    #footer img {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    }
+}
+#footer h3 {
+  margin: auto 0;
+}
+#footer span a:hover {
+    border-bottom: 2px solid #000;
+    text-decoration: none;
+}
