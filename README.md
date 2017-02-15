@@ -1,13 +1,13 @@
-  ## FreeCodeCamp
-  *********************************
-  # Tribute Page - Dr. Norman Borlaug
-  *********************************
-  ### Author:  Pranav Kural
+## FreeCodeCamp
+*********************************
+# Tribute Page - Dr. Norman Borlaug
+*********************************
+### Author:  Pranav Kural
   
-  #### About Dr. Norman Borlaug
+#### About Dr. Norman Borlaug
   
 
-  #### Page/Code Layout:
+#### Page/Code Layout:
 
       Body/Container ----|                              |-- Name
                          |-- Content ----|              |-- Image
@@ -17,9 +17,9 @@
                          |               |-- More_Info
                          |-- Footer
 
-   #### Google fonts used: H1 : Aref Ruqaa
+ #### Google fonts used: H1 : Aref Ruqaa
                       H2, H3: Mirza
                       Body: Lato
                       My name: Crafty Girls
                       
-   #### Last updated: December 17, 2016
+ #### Last updated: December 17, 2016
